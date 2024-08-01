@@ -4,7 +4,7 @@ locals {
     stack = var.stack
   } : {}
 
-    # Naming locals/constants
+  # Naming locals/constants
   name_prefix = lower(var.name_prefix)
   name_suffix = lower(var.name_suffix)
 

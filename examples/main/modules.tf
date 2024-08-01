@@ -28,18 +28,18 @@ module "log_analytics" {
   workspace_name      = "${local.name_prefix}-log"
   resource_group_name = azurerm_resource_group.rg.name
   location            = azurerm_resource_group.rg.location
-  tags = var.extra_tags
+  tags                = var.extra_tags
 }
 
 module "apim" {
-  source  = "../../"
+  source = "../../"
 
-  location       = var.location
-  client_name    = var.client_name
-  environment    = var.environment
-  stack          = var.stack
+  location    = var.location
+  client_name = var.client_name
+  environment = var.environment
+  stack       = var.stack
 
-  resource_group_name = var.resource_group_name
+  resource_group_name = azurerm_resource_group.rg.name
 
   sku_tier     = "Standard"
   sku_capacity = 1

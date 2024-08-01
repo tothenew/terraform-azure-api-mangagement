@@ -97,10 +97,6 @@ variable "location" {
   type        = string
 }
 
-variable "location_short" {
-  description = "Short string for Azure location."
-  type        = string
-}
 
 variable "sku_tier" {
   description = "APIM SKU. Valid values include: Developer, Basic, Standard, StandardV2 and Premium."
