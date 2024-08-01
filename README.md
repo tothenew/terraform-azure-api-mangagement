@@ -197,3 +197,12 @@ module "apim" {
 ## Related documentation
 
 Microsoft Azure documentation: [https://docs.microsoft.com/en-us/azure/api-management/](https://docs.microsoft.com/en-us/azure/api-management/)
+
+## Authors
+
+Module managed by [TO THE NEW Pvt. Ltd.](https://github.com/tothenew)
+
+## License
+
+Apache 2 Licensed. See [LICENSE](https://github.com/tothenew/terraform-aws-template/blob/main/LICENSE) for full details.
+>>>>>>> 60dfb5e5b30a3a4e8056d1f8ea7890dde23c944a
